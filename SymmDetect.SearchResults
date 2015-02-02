@@ -1,0 +1,3 @@
+---- 0.98 Matches (2 in 2 files) ----
+Freeglut_teapot_data.h (trimesh2\gluit):    {1.75, -0.98, 1.875}, {0.98, -1.75, 1.875}, {0, -1.75,
+Rtsc.cpp:				float L=0.98;

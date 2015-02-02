@@ -1,0 +1,306 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: trimesh2
+Date: Wed, 10 Sep 2008 20:43:18 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C91385.DB12A4A0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C91385.DB12A4A0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cs.princeton.edu/gfx/proj/trimesh2/
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>trimesh2</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dgb2312">
+<META content=3D"MSHTML 6.00.6000.16705" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 vLink=3D#000066 aLink=3D#880000 link=3D#0000dd =
+bgColor=3D#ffffff>
+<TABLE cellPadding=3D10 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle width=3D147><IMG height=3D106 =
+alt=3Dtrimesh=20
+      =
+src=3D"http://www.cs.princeton.edu/gfx/proj/trimesh2/trimesh_logo.jpg"=20
+      width=3D127> </TD>
+    <TD width=3D"7%"></TD>
+    <TD vAlign=3Dcenter align=3Dleft><TT>trimesh2</TT> is a C++ library =
+and set of=20
+      utilities for input, output, and basic manipulation of 3D triangle =
+meshes.=20
+      The goals of the code are ease of use and efficiency, possibly at =
+the=20
+      expense of some generality. </TD>
+    <TD width=3D"7%"></TD></TR></TBODY></TABLE>
+<H2>Features</H2>
+<P>The library includes the following:=20
+<UL>
+  <LI>Support for reading PLY, OFF, 3DS, and Wavefront OBJ files, =
+together with=20
+  a few other formats of mostly local interest (SM, RAY).=20
+  <LI>Support for writing PLY, OFF, and OBJ files.=20
+  <LI>A templated C++ class for constant-length vectors, with support =
+for the=20
+  usual arithmetic operations (add, subtract, componentwise multiply and =
+divide,=20
+  dot product, cross product, etc.)=20
+  <LI>A class for rigid-body transformations.=20
+  <LI>An OpenGL trackball/arcball implementation, with automatic =
+selection of=20
+  rotation center.=20
+  <LI>Algorithms for subdivision, smoothing, curvature estimation, =
+triangle=20
+  stripping, and various other simple mesh manipulations. </LI></UL>
+<P>Bundled together with the library are:=20
+<UL>
+  <LI><A =
+href=3D"http://www.inf.ethz.ch/personal/gaertner/miniball.html">Bernd=20
+  G&auml;rtner's "miniball" code </A>for efficient exact bounding sphere =
+computation=20
+  <LI>A version of the <A =
+href=3D"http://freeglut.sourceforge.net/">"freeglut"=20
+  library</A>, an open source GLUT replacement=20
+  <LI><A href=3D"http://www.nigels.com/glt/glui/">GLUI</A>, a user =
+interface=20
+  library that sits on top of OpenGL, hence is portable to many =
+different=20
+  systems </LI></UL>
+<P>In addition, the following utility programs are included:=20
+<UL>
+  <LI><TT>mesh_view</TT>: a simple 3D mesh viewer=20
+  <LI><TT>mesh_make</TT>: create arbitrarily-tessellated meshes of =
+various=20
+  simple shapes=20
+  <LI><TT>mesh_filter</TT>: applies a variety of simple transformations =
+to a=20
+  mesh, such as converting formats, flipping faces, subdivision, =
+smoothing,=20
+  rigid-body transformations, etc.=20
+  <LI><TT>mesh_cc</TT>: list and/or extract connected components from a =
+mesh=20
+  <LI><TT>mesh_cat</TT>: combine several meshes into a single file=20
+  <LI><TT>mesh_align</TT>: align 2 meshes using ICP=20
+  <LI><TT>mesh_shade</TT>: a few procedural shaders for adding =
+per-vertex color=20
+  </LI></UL>
+<P>The author of trimesh2 is <A =
+href=3D"http://www.cs.princeton.edu/~smr/">Szymon=20
+Rusinkiewicz</A>, and the library is distributed under the <A=20
+href=3D"http://www.gnu.org/copyleft/gpl.html">GNU General Public =
+License</A>=20
+(GPL), version 2. The various libraries distributed with trimesh2 are =
+open=20
+source, and are believed to be covered by GPL-compatible licenses. =
+Please see=20
+the COPYING file.=20
+<P>The code is written in C++, and is known to compile using a recent =
+(3.x)=20
+version of g++ on several Unix-like OSes (Linux x86 and x86-64, Solaris, =
+Mac=20
+OSX). Compiling under Windows is possible using Cygwin or Mingw32, as =
+well as MS=20
+Visual Studio .NET (but <I>not</I> MSVC 6). <BR>
+<TABLE width=3D"70%" align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD><FONT color=3D#aa0000><I><B>Warning:</B> some gcc versions are =
+known to=20
+      miscompile trimesh2. <BR>Versions 3.4.x (x &gt;=3D 3), 4.0.y (y =
+&gt;=3D 1),=20
+      and 4.1.z (z !=3D 2) are believed to be OK.</I></FONT>=20
+</TD></TD></TR></TBODY></TABLE>
+<H2>Download</H2>
+<P>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://www.cs.princeton.edu/gfx/proj/trimesh2/src/trimesh2-2.8.zi=
+p">trimesh2-2.8.zip</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www.cs.princeton.edu/gfx/proj/trimesh2/src/trimesh2-2.8.ta=
+r.gz">trimesh2-2.8.tar.gz</A>=20
+
+  <LI><A =
+href=3D"http://www.cs.princeton.edu/gfx/proj/trimesh2/src/">Older=20
+  versions...</A> </LI></UL>Both of these packages include source, as =
+well as=20
+Linux (32- and 64-bit) and Windows binaries.=20
+<H2>Changes</H2>
+<P><I>The most recent version is 2.8</I>=20
+<P>Changes since version 2.7:=20
+<UL>
+  <LI>Many compilation, portability, and bug fixes=20
+  <LI>Colors are now stored as floats - this will require updating =
+external code=20
+  that uses trimesh2=20
+  <LI>Support for maintaining range grids as grids, instead of =
+automatically=20
+  converting to meshes upon read=20
+  <LI>Rudimentary (possibly broken, incomplete) support for reading VVD =
+files=20
+  <LI><TT>mesh_filter</TT>: Added bilateral mesh filtering using the =
+method of=20
+  <A href=3D"http://people.csail.mit.edu/thouis/JDD03.pdf">[Jones et=20
+  al.&nbsp;2003]</A>=20
+  <LI><TT>mesh_make</TT>: Added Klein bottle, rhombic triacontahedron=20
+  <LI>OpenMP directives in a few places for multi-threading=20
+  <LI>Many functions moved from utilities into library </LI></UL>
+<P>Changes since version 2.6:=20
+<UL>
+  <LI>Miscellaneous compilation, portability, and bug fixes=20
+  <LI><TT>mesh_filter</TT>: Added <TT>-pcasnap</TT>; added <TT>-fly</TT> =
+
+  (butterfly subdivision); more robust <TT>-orient</TT>=20
+  <LI><TT>mesh_make</TT>: Added trefoil knot=20
+  <LI>Linux x86_64 libraries and binaries now go in lib.Linux64/ and=20
+  bin.Linux64/ </LI></UL>
+<P>Changes since version 2.5:=20
+<UL>
+  <LI><TT>mesh_filter</TT>: Added <TT>-sharpen</TT> and =
+<TT>-usmooth</TT> flags;=20
+  bugfixes for Mac compilation, transforming meshes with normals=20
+  <LI><TT>mesh_make</TT>: Fix for making cubes with tess =3D 1=20
+  <LI><TT>mesh_align</TT>: ICP with isotropic or anisotropic (affine) =
+scale=20
+  <LI><TT>mesh_cat</TT>: Bugfix in handling normals, colors, etc.=20
+  <LI><TT>mesh_shade</TT>: Added a few shaders, including coloring based =
+on=20
+  mesh-to-mesh distance </LI></UL>Changes since version 2.4:=20
+<UL>
+  <LI>Fixed bug in curvature computation=20
+  <LI>Small bugfix in <TT>mesh_view</TT>=20
+  <LI>Compile fixes=20
+  <LI>Added <TT>mesh_shade</TT> with a few procedural shaders </LI></UL>
+<P>Changes since version 2.3:=20
+<UL>
+  <LI>Added <TT>mesh_align</TT>=20
+  <LI>XForm.h and some of the utility programs should now support affine =
+
+  transforms (as opposed to just rigid-body)=20
+  <LI>Added yet more options to <TT>mesh_filter</TT> </LI></UL>
+<P>Changes since version 2.2:=20
+<UL>
+  <LI>Bugfix in file I/O </LI></UL>
+<P>Changes since version 2.1:=20
+<UL>
+  <LI>Added a couple of options to <TT>mesh_filter</TT>=20
+  <LI>Bugfix for depth readback on ATI cards with broken drivers =
+</LI></UL>
+<P>Changes since version 2.0:=20
+<UL>
+  <LI>Added <TT>mesh_cat</TT> utility=20
+  <LI>Added several options to <TT>mesh_filter</TT>=20
+  <LI>Many bugfixes, including compilation errors, I/O, and =
+<TT>mesh_view</TT>=20
+  </LI></UL>
+<P>Please contact <I>smr at princeton edu</I> if you have any questions =
+about=20
+the code. <BR><BR>
+<HR>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01C91385.DB12A4A0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.princeton.edu/gfx/proj/trimesh2/trimesh_logo.jpg
+
+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
+x/akDc02Tgdzt76F9NRsyhqU4ysRX//Z
+
+------=_NextPart_000_0000_01C91385.DB12A4A0--
