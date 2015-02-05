@@ -1,1 +1,0 @@
-extern PSBCategoryList* ClassFileParse(char *classfilename);
