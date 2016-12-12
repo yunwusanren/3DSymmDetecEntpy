@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RTSC">
+</Property><Property Name="Solution File" Value="C:\Swithch\code\RTSC.sln">
+</Property><Property Name="User Options File" Value="C:\Swithch\code\RTSC.suo">
+</Property><Property Name="Date" Value="Wednesday, November 04, 2009">
+</Property><Property Name="Time" Value="20:52 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RTSC.sln" Description="File successfully backed up as C:\Swithch\code\RTSC.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="RTSC.suo" Description="File successfully backed up as C:\Swithch\code\RTSC.suo.old">
+</Event><Event ErrorLevel="0" Project="RTSC" Source="RTSC\RTSC.vcproj" Description="Converting project file 'C:\Swithch\code\RTSC\RTSC.vcproj'.">
+</Event><Event ErrorLevel="2" Project="RTSC" Source="RTSC\RTSC.vcproj" Description="File 'C:\Swithch\code\RTSC\RTSC.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="RTSC" Source="RTSC\RTSC.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="RTSC" Source="RTSC\RTSC.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RTSC.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RTSC.sln" Description="Converted">
+</Event></UpgradeLog>
